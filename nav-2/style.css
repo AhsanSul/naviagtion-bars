@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mega-menu{
+    
+    position: absolute;
+    background: blue;
+    display: flex;
+    gap: 50px;
+    top: 3rem;
+    padding: 1rem 3rem;
+    left: 250px;
+    display: none;
+    top: 1.7rem;
+    
+}
+
+.nav li:hover .mega-menu{
+    display: flex;
+}
+.nav li:hover .mega-menu-1{
+    display: block;
+}
+
+.mega-menu-1{
+    position: absolute;
+    display: block;
+    top: 32px;
+    background: blue;
+    display: none;
+    
+    
+}
+
+.services{
+    list-style: none;  
+}
+
+.nav{
+    display: flex;
+    gap: 50px;
+    background: black;
+    list-style: none;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 2rem;
+}
+
+.nav li{
+    color: rgba(255, 255, 255, 0.7);
+    
+}
+
+.nav li:hover{
+    color: white;
+    background: blue;
+}
+
+.nav ul:hover{
+    background: blue;
+}
